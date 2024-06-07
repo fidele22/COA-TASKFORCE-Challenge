@@ -19,10 +19,44 @@ To get a local copy up and running, follow these steps:
 
 1.Clone the repository:
 
-git clone https://github.com/your-username/responsive-image-gallery.git
-
+git clone https://github.com/fidele22/COA-TASKFORCE-Challenge
 2.Open the project directory:
 
 cd COA-TASKFORCE-Challenge
 
 3.Open index.html in your web browser to view the gallery.
+
+
+
+**Coding Challenges**
+
+**Challenge 1: Array Manipulation**
+
+Problem Statement
+
+Given an array of integers and a target sum, determine if there exists a contiguous subarray within the array that sums up to the target. Return true if such a subarray exists, otherwise return false.
+Example
+
+    Input: arr = [4, 2, 7, 1, 9, 5], target = 17
+    Output: true
+    Explanation: The subarray [7, 1, 9] sums up to 17, which is equal to the target.
+
+
+
+    **Challenge 2: String Transformation**
+    
+Problem Statement
+
+Given a string, transform it based on the following rules:
+
+    If the length of the string is divisible by 3, reverse the entire string.
+    If the length of the string is divisible by 5, replace each character with its ASCII code.
+    If the length of the string is divisible by both 3 and 5 (i.e., divisible by 15), perform both operations in the order specified above.
+
+Examples
+
+    Input: "Hamburger"
+        Output: "regrubmaH"
+        Explanation: The length of the string is 9, which is divisible by 3. The string is reversed.
+
+
