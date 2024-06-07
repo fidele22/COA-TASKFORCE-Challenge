@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="image.css">
+</head>
+<body>
+    <h1>Photo Gallery</h1>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="./image/fox.jpg" alt="Image 1">
+            <span class="text-overlay">See More <i class="fa-solid fa-arrow-right" style="color:white;"></i></span>
+            <div class="image-name">
+                <h1>Fennec Fox</h1>
+                <p>Sahara</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./image/hump.jpg" alt="Image 2">
+            <span class="text-overlay">See More</span>
+            <div class="image-name">
+                <h1>Humpback Whale</h1>
+                <p>south africa</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./image/common.jpg" alt="Image 3">
+            <span class="text-overlay">See More</span>
+            <div class="image-name">
+                <h1>Chacma baboon</h1>
+                <p>south africa</p>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="./image/deer.jpg" alt="Image 4">
+            <span class="text-overlay">See More</span>
+            <div class="image-name">
+                <h1>Operation Deer </h1>
+                <p>amazone</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox container -->
+    <div id="lightbox">
+        <!-- Close button -->
+        <span id="close-btn" onclick="closeLightbox()" 
+        style="
+        background-color: red;
+        color: white; 
+        width: 5%;
+        font-size: 22px;
+       ">close</span>
+
+        <!-- Main lightbox image -->
+        <img id="lightbox-img" src="" alt="lightbox image">
+
+        <!-- Previous and Next buttons -->
+        <button id="prev-btn" onclick="changeImage(-1)" style="background-color: blue; color: white;">&lt; Prev</button>
+        <button id="next-btn" onclick="changeImage(1)"style="background-color: blue; color: white;">Next &gt;</button>
+    </div>
+
+    <script src="image.js"></script>
+</body>
+</html>
