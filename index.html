@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Gallery</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="styling.css">
 </head>
 <body>
     <h1>Photo Gallery</h1>
@@ -20,11 +20,12 @@
         </div>
         <div class="image-container">
             <img src="./image/hump.jpg" alt="Image 2">
-            <span class="text-overlay">See More</span>
             <div class="image-name">
                 <h1>Humpback Whale</h1>
                 <p>south africa</p>
             </div>
+            <span class="text-overlay">See More <i class="fa-solid fa-arrow-right" style="color:white;"></i></span>
+            
         </div>
         <div class="image-container">
             <img src="./image/common.jpg" alt="Image 3">
@@ -47,14 +48,11 @@
     <!-- Lightbox container -->
     <div id="lightbox">
         <!-- Close button -->
-        <span id="close-btn" onclick="closeLightbox()" 
-        style="
-        background-color: red;
-        color: white; 
-        width: 5%;
-        font-size: 22px;
-       ">close</span>
-
+         <div class="close" id="close-btn" onclick="closeLightbox()" >
+            <p><span >Close</span></p>
+    
+         </div>
+       
         <!-- Main lightbox image -->
         <img id="lightbox-img" src="" alt="lightbox image">
 
@@ -63,6 +61,6 @@
         <button id="next-btn" onclick="changeImage(1)"style="background-color: blue; color: white;">Next &gt;</button>
     </div>
 
-    <script src="image.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

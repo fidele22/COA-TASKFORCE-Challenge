@@ -39,13 +39,3 @@ document.querySelectorAll('.gallery .image-container').forEach(container => {
     container.addEventListener('click', openLightbox);
 });
 
-// Add keyboard navigation
-document.addEventListener('keydown', function (e) {
-    if (document.getElementById('lightbox').style.display === 'flex') {
-        if (e.key === 'ArrowLeft') {
-            changeImage(-1);
-        } else if (e.key === 'ArrowRight') {
-            changeImage(1);
-        }
-    }
-});
