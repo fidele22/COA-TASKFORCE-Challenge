@@ -28,7 +28,7 @@ function changeImage(direction) {
     updateLightboxImage();
 }
 
-// Update the lightbox image
+// Update the lightbox of image
 function updateLightboxImage() {
     const lightboxImg = document.getElementById('lightbox-img');
     lightboxImg.src = images[currentIndex].src;
