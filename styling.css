@@ -47,7 +47,6 @@ h1 {
     padding: opx;
     width: 90%;
     height:10vh;
-    border: 1px solid red;
     transition: transform 0.3s;
     text-align: center;
     z-index: 1001;
