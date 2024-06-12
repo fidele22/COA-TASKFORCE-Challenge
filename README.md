@@ -43,7 +43,7 @@ Example
 
 
 
-    **Challenge 2: String Transformation**
+**Challenge 2: String Transformation**
     
 Problem Statement
 
