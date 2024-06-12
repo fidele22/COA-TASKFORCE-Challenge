@@ -60,3 +60,30 @@ Examples
         Explanation: The length of the string is 9, which is divisible by 3. The string is reversed.
 
 
+    
+
+**To run the provided JavaScript code challenge**
+
+Step 1: Install Node.js:
+
+First, make sure you have Node.js installed on your system.
+
+Step 2: Run the JavaScript File:
+Navigate to the directory where  file is saved using cd command
+
+for example: cd path/to/your/directory
+
+Run the JavaScript file using Node.js with typing command like this:
+
+*node transformString.js**/
+
+
+
+
+
+ 
+
+
+
+
+
